@@ -1,0 +1,36 @@
+---
+title: "RStudio engines"
+author: "Shawn Santo"
+date: "8/18/2019"
+output: html_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+We can see the different engines at work in RStudio.
+
+## Python chunk
+
+```{r}
+nums <- sample(x = c(0, 1), size = 10, replace = TRUE)
+nums
+```
+
+## Bash chunk
+
+```{bash}
+which git
+git --version
+ls
+```
+
+## Python chunk
+
+```{python}
+my_list = list(range(10))
+my_list.pop()
+```
+
+
