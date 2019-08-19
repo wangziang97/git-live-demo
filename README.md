@@ -1,3 +1,3 @@
 # git-live-demo
 
-Description here..
+This is a git live demo.
